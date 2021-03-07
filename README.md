@@ -1,6 +1,9 @@
 # DJANGO DOO TECH [REVERSE ENGINEERED]
 Doo Tech - Reverse Engineered
 
+## LIVE DEMO
+https://muhaafidz-doo-tech-re.herokuapp.com/
+
 ## Technology Involved
 - Heroku - Serve this demo website
 - Django 3.1 - Backend
@@ -23,11 +26,6 @@ Doo Tech - Reverse Engineered
 ```
     Win: venv/Scripts/activate
     Mac: source venv/bin/activate
-```
-
-- Locate the main directory
-```
-    Win/Mac: cd web/
 ```
 
 - Install the requirements
