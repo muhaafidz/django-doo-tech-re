@@ -1,13 +1,376 @@
 {% extends "layouts/base.html" %}
 
-{% block title %} Home Page {% endblock %}
+{% block title %} Explore Trading Future {% endblock %}
 
 {% block css %}{% endblock css %}
 
 {% load static %}
 
 {% block content %}
-    <p>Haiiiiii</p>
+  
+
+  <section id="section-top">
+    <!-- Video BG -->
+    <video class="head-video" autoplay="" muted="" loop="">
+      <source src="https://cdn.dootech.io/doo-tech/images/banner2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="container">
+      <div class="row position-relative">
+        <div class="col-md-8 col-lg-7">
+          <h4 data-aos="fade-up" data-aos-duration="900">Global Leading</h4>
+          <h1 data-aos="fade-up" data-aos-duration="1000" class="mb-3 top-title">Financial Technology Company</h1>
+          <p data-aos="fade-up" data-aos-duration="1100" >Full-Fledged, Tailored Technology Solutions for Securities Dealers, Brokers, and Asset Management Firms Around the World.</p>
+        </div>
+      </div>
+      <div class="head-feature-div">
+        <ul class="head-feature-ul">
+          <li data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">In-House R&D Team</li>
+          <li data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">Vast Experience in Financial Services</li>
+          <li data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1000">24/7 Technical Support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-solution">
+    <div class="container">
+      <h2 data-aos="fade-up" data-aos-duration="1000" class="title-section text-center">Tailored FinTech Solutions</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <div class="row mb-4" style="place-content:center;">
+            <div class="col-md-5 col-lg-12" data-aos="fade-up" data-aos-duration="1000">
+              <img src="{% static 'assets/img/solution-1.png' %}" alt="" class="w-100 solution-image">
+            </div>
+            <div class="col-md-5 col-lg-12" data-aos="fade-up" data-aos-duration="1000">
+              <h6 class="solution-subtitle mt-0 mt-lg-3">Tailored FinTech Solutions</h6>
+              <p class="solution-text">Catering to the needs of securities dealers, brokers, liquidity providers, asset management firms, and funds, we offer full-fledged, tailored FinTech solutions that strengthen their core competitiveness in the ever-changing financial market with optimized workflow and managerial efficiency.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="row mb-4" style="place-content:center;">
+            <div class="col-md-5 col-lg-12" data-aos="fade-up" data-aos-duration="1000">
+              <img src="{% static 'assets/img/solution-2.png' %}" alt="" class="w-100 solution-image">
+            </div>
+            <div class="col-md-5 col-lg-12" data-aos="fade-up" data-aos-duration="1000">
+              <h6 class="solution-subtitle mt-0 mt-lg-3">Working with Various Institutional Clients</h6>
+              <p class="solution-text">Doo Tech has formed long-term partnerships with various financial institutions, which includes online brokerage firms, funds, and asset management companies, where both sides collaborate closely to achieve mutual growth and success.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="row mb-4" style="place-content:center;">
+            <div class="col-md-5 col-lg-12" data-aos="fade-up" data-aos-duration="1000">
+              <img src="{% static 'assets/img/solution-3.png' %}" alt="" class="w-100 solution-image">
+            </div>
+            <div class="col-md-5 col-lg-12" data-aos="fade-up" data-aos-duration="1000">
+              <h6 class="solution-subtitle mt-0 mt-lg-3">Supported by Cutting-Edge Technology</h6>
+              <p class="solution-text">Doo Tech's robust technological strength is backed by its ultra-low latency trading conditions, advanced technology in asset allocation composite, and strong third-party technology support, which gives us the ability to provide software and hardware solutions tailored for you needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-partner">
+    <div class="container-fluid position-relative">
+      <h2 data-aos="fade-up" data-aos-duration="1000" class="title-section text-center">Partnerships and Collaboration</h2>
+      <h6 data-aos="fade-up" data-aos-duration="1000" class="solution-subtitle text-center mb-5">With years of experience and industry knowledge, we have served more than 400 financial institutions and retail brokerage firms and together, we are shaping the new FinTech paradigm.</h6>
+
+      <div class="accordion text-white" id="accordionExample">
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+              <div class="d-flex w-100" style="justify-content:space-between;">
+                <div>
+                  <i class="fas fa-caret-right accordion-toggle-icon"></i> 
+                  Liquidity Provider Partners
+                </div>
+                <div>
+                  <span>Sort by letters A-Z</span>
+                </div>
+              </div>
+            </button>
+          </h2>
+          <div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-1-1.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-1-2.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-1-3.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-1-4.png' %}" alt="" class="partner-image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+              <i class="fas fa-caret-right accordion-toggle-icon"></i> 
+              Infrastructure Partner
+            </button>
+          </h2>
+          <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-2-1.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-2-2.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-2-3.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-2-4.png' %}" alt="" class="partner-image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+              <i class="fas fa-caret-right accordion-toggle-icon"></i> 
+              Global Network Partner
+            </button>
+          </h2>
+          <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-3-1.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-3-2.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-3-3.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-3-4.png' %}" alt="" class="partner-image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+              <i class="fas fa-caret-right accordion-toggle-icon"></i> 
+              Virtual Technology Partner
+            </button>
+          </h2>
+          <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-4-1.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-4-2.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-4-3.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-4-4.png' %}" alt="" class="partner-image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+              <i class="fas fa-caret-right accordion-toggle-icon"></i> 
+              Bridge Provider Partners
+            </button>
+          </h2>
+          <div id="collapse-5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-5-1.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-5-2.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-5-3.png' %}" alt="" class="partner-image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+              <i class="fas fa-caret-right accordion-toggle-icon"></i> 
+              Trading Software Partner
+            </button>
+          </h2>
+          <div id="collapse-6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-6-1.png' %}" alt="" class="partner-image">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-6 partner-div h-100">
+                  <div class="partner-overlay"></div>
+                  <img src="{% static 'assets/img/partner/partner-6-2.png' %}" alt="" class="partner-image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-office">
+    <div class="container-fluid position-relative">
+      <h2 data-aos="fade-up" data-aos-duration="1000" class="title-section text-center">Our Global Footprint</h2>
+      <h6 data-aos="fade-up" data-aos-duration="1000" class="solution-subtitle text-center mb-5">With offices in Hong Kong, London, Taipei, Kuala Lumpur, Dallas, and Singapore, we integrate state-of-the-art technology and insightful resources to meet the needs of established enterprises around the world.</h6>
+
+      <div class="row">
+        <div class="col-md-4 col-6 office-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image-office w-100" style="background-image:url('{% static 'assets/img/location-1.png' %}')"></div>
+          <div class="office-text-div px-3 py-5 p-md-5">
+            <h5 class="office-text-title"><i class="fas fa-square-full mr-3">&ensp;</i>Hong Kong</h5>
+            <p>
+              25/F, Tower B,
+              <br>Billion Centre,
+              <br>No. 1Wang Kwong Road,
+              <br>Kowloon Bay, Hong Kong
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-6 office-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image-office w-100" style="background-image:url('{% static 'assets/img/location-2.png' %}')"></div>
+          <div class="office-text-div px-3 py-5 p-md-5">
+            <h5 class="office-text-title"><i class="fas fa-square-full mr-3">&ensp;</i>London</h5>
+            <p>
+              Ground Floor, Birchin Court,
+              <br>20 Birchin Lane,
+              <br>City of London,London,
+              <br>EC3V 9DU,UK
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-6 office-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image-office w-100" style="background-image:url('{% static 'assets/img/location-3.png' %}')"></div>
+          <div class="office-text-div px-3 py-5 p-md-5">
+            <h5 class="office-text-title"><i class="fas fa-square-full mr-3">&ensp;</i>Taipei</h5>
+            <p>
+              No. 409, Section 2
+              <br>Tiding Boulevard,
+              <br>Neihu District,
+              <br>Taipei City, Taiwan 114
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-6 office-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image-office w-100" style="background-image:url('{% static 'assets/img/location-4.png' %}')"></div>
+          <div class="office-text-div px-3 py-5 p-md-5">
+            <h5 class="office-text-title"><i class="fas fa-square-full mr-3">&ensp;</i>Kuala Lumpur</h5>
+            <p>
+              Level 3, Tower 8, Avenue 5,
+              <br>The Horizon Phase 2, Bangsar South City,
+              <br>No. 8 Jalan Kerinchi,
+              <br>59200 Kuala Lumpur, Malaysia
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-6 office-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image-office w-100" style="background-image:url('{% static 'assets/img/location-5.png' %}')"></div>
+          <div class="office-text-div px-3 py-5 p-md-5">
+            <h5 class="office-text-title"><i class="fas fa-square-full mr-3">&ensp;</i>Dallas</h5>
+            <p>
+              320 Singleton Blvd APT 1131,
+              <br>Dallas,
+              <br>TX 75212, United States
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-6 office-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="image-office w-100" style="background-image:url('{% static 'assets/img/location-6.png' %}')"></div>
+          <div class="office-text-div px-3 py-5 p-md-5">
+            <h5 class="office-text-title"><i class="fas fa-square-full mr-3">&ensp;</i>Singapore</h5>
+            <p>
+              Unit 5, 10/F,
+              <br>Novelty Bizcentre,
+              <br>18 Howard Road, Singapore
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-contact">
+    <div class="container-fluid position-relative text-center p-0" style="height:500px;">
+      <div class="contact-bg h-100 row w-100">
+        <div class="col-lg-7 col-md-8 p-0">
+          <img class=" h-100" src="{% static 'assets/img/bg-globe.png' %}" alt="">
+        </div>
+        <div class="col-lg-5 d-lg-block d-none p-0">
+          <div class="contact-bg-1" style="background:url('{% static 'assets/img/bg-contact-1.png' %}');"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-7 text-left">
+          <div class="position-relative" data-aos="fade-up" data-aos-duration="1000">
+            <div class="contact-title-box"></div>
+            <h2 class="title-section-contact text-center">Contact Us</h2>
+          </div>
+          <h6 data-aos="fade-up" data-aos-duration="1000" class="solution-subtitle text-center mb-5">Please feel free to reach out to us via</h6>
+          <div class="position-relative mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <h3>Sales Representative</h3>
+            <p>Email : sales@doo.tech</p>
+          </div>
+          <div class="position-relative mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <h3>Technical Support</h3>
+            <p>Email : support@doo.tech</p>
+
+            <p>Phone : +852 5641 1906</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 {% endblock content %}
 
 {% block js %}{% endblock js %}
