@@ -31,4 +31,4 @@ Doo Tech - Reverse Engineered
     Win: python manage.py runserver
     Mac: python3 manage.py runserver
 
-- Open http://127.0.0.1:8000 with your browser
+- Open http://127.0.0.1:8000 in your browser
